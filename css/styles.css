@@ -22,14 +22,14 @@ footer {
   margin-bottom: 20px;
 }
 
-.selfie-box {
+.box1 {
   margin: 0px;
 }
-.selfie-img {
+.box1-img {
 max-width: 400px;
 max-height: auto;
 }
 
-.selfie-float {
+.box1-float {
 z-index: 30px;
 }
