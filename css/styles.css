@@ -1,0 +1,35 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+}
+
+img {
+  max-width: 400px;
+  max-height: auto;
+}
+
+footer {
+  font:100;
+}
+
+.navbar {
+  font-size: 2.5em;
+}
+
+.intro {
+  font-size: 1.2em;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+.selfie-box {
+  margin: 0px;
+}
+.selfie-img {
+max-width: 400px;
+max-height: auto;
+}
+
+.selfie-float {
+z-index: 30px;
+}
