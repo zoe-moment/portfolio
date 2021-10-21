@@ -1,7 +1,7 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: normal;
-  background-color: green;
+  background-color: black;
 }
 
 img {
@@ -10,20 +10,16 @@ img {
 }
 
 footer {
-  font:100;
+  font-size: 1rem;
 }
+
+/* CLASSES */
 
 .navbar {
   font-size: 2.5em;
 }
 
-.intro {
-  font-size: 1.2em;
-  margin-left: 0;
-  margin-bottom: 20px;
-}
-
-
+/* DIV FLEX BOX 1 */
 
 .box1 {
   display: flex;
@@ -32,16 +28,29 @@ footer {
   max-height: 200px;
   background-color: hotpink;
 }
+
 .box1-img {
 max-width: 400px;
 max-height: auto;
 }
 
 .box1-float {
-  background-color:#ffffff;
-  text-decoration-color: tomato;
+  background-color:#00ff55;
   max-width: 200px;
   max-height: 200px;
   margin-top: 20%;
   margin-bottom: auto;
 }
+
+/* DIV FLEX BOX 2 */
+
+.box2 {
+  background-color: white;
+}
+.box2-intro {
+  font-size: 1.2em;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+/* DIV FLEX BOX 3 */
