@@ -16,20 +16,22 @@ footer {
 /* CLASSES */
 
 .navbar {
+  background-color: rgb(255, 255, 255);
   font-size: 2.5em;
 }
 
 /* DIV FLEX BOX 1 */
 
 .box1 {
+  background-color: rgb(255, 255, 255);
   display: flex;
   flex: 1;
   margin: 0px;
   max-height: 200px;
-  background-color: hotpink;
 }
 
 .box1-img {
+background-color: rgb(98, 170, 3);
 max-width: 400px;
 max-height: auto;
 }
@@ -45,7 +47,7 @@ max-height: auto;
 /* DIV FLEX BOX 2 */
 
 .box2 {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 .box2-intro {
   font-size: 1.2em;
@@ -54,3 +56,11 @@ max-height: auto;
 }
 
 /* DIV FLEX BOX 3 */
+.box3 {
+  background-color: rgb(255, 255, 255);
+}
+
+/* DIV FLEX BOX 4 */
+.box4 {
+  background-color: rgb(255, 255, 255);
+}
