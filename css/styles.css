@@ -7,6 +7,7 @@ body {
 img {
   max-width: 400px;
   max-height: auto;
+  float: left;
 }
 
 footer {
@@ -27,7 +28,8 @@ footer {
   display: flex;
   flex: 1;
   margin: 0px;
-  max-height: 200px;
+  max-height: auto;
+  max-width: 90%;
 }
 
 .box1-img {
@@ -36,18 +38,20 @@ max-width: 400px;
 max-height: auto;
 }
 
-.box1-float {
+.box1-txt {
   background-color:#00ff55;
   max-width: 200px;
-  max-height: 200px;
-  margin-top: 20%;
-  margin-bottom: auto;
+  max-height: auto;
+
 }
 
 /* DIV FLEX BOX 2 */
 
 .box2 {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(212, 149, 149);
+  max-height: auto;
+  max-width: 90%;
+  float: center;
 }
 .box2-intro {
   font-size: 1.2em;
