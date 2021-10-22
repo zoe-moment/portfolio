@@ -27,22 +27,27 @@ footer {
   background-color: rgb(255, 255, 255);
   display: flex;
   flex: 1;
+  flex-direction: column;
   margin: 0px;
   max-height: auto;
   max-width: 90%;
 }
 
-.box1-img {
+.box1-col1 {
 background-color: rgb(98, 170, 3);
 max-width: 400px;
 max-height: auto;
 }
-
-.box1-txt {
+.box1-col2 {
   background-color:#00ff55;
   max-width: 200px;
   max-height: auto;
-
+  position: relative;
+  margin-top: 20rem;
+  margin-right: -20rem;
+}
+.box1-col3 {
+  background-color: blue;
 }
 
 /* DIV FLEX BOX 2 */
@@ -51,7 +56,7 @@ max-height: auto;
   background-color: rgb(212, 149, 149);
   max-height: auto;
   max-width: 90%;
-  float: center;
+  float: right;
 }
 .box2-intro {
   font-size: 1.2em;
