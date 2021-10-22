@@ -15,28 +15,52 @@ footer {
 }
 
 /* CLASSES */
-
 .navbar {
   background-color: rgb(255, 255, 255);
   font-size: 2.5em;
 }
 
-/* DIV FLEX BOX 1 */
+
+
+
+
+
+/* DIV FLEX BOXES */
 
 .box1 {
-  background-color: rgb(255, 255, 255);
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  margin: 0px;
+  background-color: rgb(207, 247, 220);
+  padding: 20px;
+  margin: 10px;
+  max-height: auto;
+  max-width: 90%;
+}
+.box2 {
+  background-color: rgb(252, 183, 183);
+  padding: 20px;
+  margin: 10px;
+  max-height: auto;
+  max-width: 90%;
+}
+.box3 {
+  background-color: rgb(209, 255, 211);
+  padding: 20px;
+  margin: 10px;
+  max-height: auto;
+  max-width: 90%;
+}
+.box4 {
+  background-color: rgb(253, 183, 183);
+  padding: 20px;
+  margin: 10px;
   max-height: auto;
   max-width: 90%;
 }
 
+/* DIV FLEX BOX 1 */
 .box1-col1 {
-background-color: rgb(98, 170, 3);
-max-width: 400px;
-max-height: auto;
+  background-color: rgb(98, 170, 3);
+  max-width: 400px;
+  max-height: auto;
 }
 .box1-col2 {
   background-color:#00ff55;
@@ -51,25 +75,13 @@ max-height: auto;
 }
 
 /* DIV FLEX BOX 2 */
-
-.box2 {
-  background-color: rgb(212, 149, 149);
-  max-height: auto;
-  max-width: 90%;
-  float: right;
-}
-.box2-intro {
+.box2-col1 {
   font-size: 1.2em;
   margin-left: 0;
   margin-bottom: 20px;
 }
 
 /* DIV FLEX BOX 3 */
-.box3 {
-  background-color: rgb(255, 255, 255);
-}
+
 
 /* DIV FLEX BOX 4 */
-.box4 {
-  background-color: rgb(255, 255, 255);
-}
