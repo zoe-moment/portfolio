@@ -33,6 +33,7 @@ footer {
   margin: 10px;
   max-height: auto;
   max-width: 90%;
+  display: flex;
 }
 .box2 {
   background-color: rgb(252, 183, 183);
@@ -67,12 +68,11 @@ footer {
   max-width: 200px;
   max-height: auto;
   position: relative;
-  margin-top: 20rem;
-  margin-right: -20rem;
 }
-.box1-col3 {
-  background-color: blue;
+.box1-p {
+  background-color: white;
 }
+
 
 /* DIV FLEX BOX 2 */
 .box2-col1 {
