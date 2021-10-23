@@ -7,6 +7,7 @@ body {
 figure {
   max-width: 100%;
   max-height: auto;
+  margin: auto;
   background-color: burlywood;
 }
 img {
@@ -74,11 +75,11 @@ footer {
   max-height: auto;
   max-width: 90%;
 }
-.box1-col1-img {
+.box1-col1 img {
   max-width: 98%;
   max-height: auto;
   margin-right: 5px;
-  margin-left: 5px;
+  margin-left: 80px;
   position: relative;
   z-index: 1;
 }
@@ -88,7 +89,7 @@ footer {
   max-width: 200px;
   max-height: auto;
 }
-.box1-col2-p {
+.box1-col2 p {
   background-color: white;
   margin: 10px;
   padding: 10px;
