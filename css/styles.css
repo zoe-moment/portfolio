@@ -105,15 +105,6 @@ footer {
 }
 
 
-
-
-
-
-
-
-
-
-
 /* DIV FLEX BOX 2 */
 .box2-col1 {
   background-color: hotpink;
@@ -125,17 +116,35 @@ footer {
   background-color: hotpink;
 }
 
+
+
+
+
+
 /* DIV FLEX BOX 3 */
-.box3-col1 {
+.box3 {
   font-size: 1.2em;
   margin-left: 0;
   margin-bottom: 20px;
   float:right;
 }
+
+.box3-edu {
+  display:flex;
+}
+
 .box3 img {
   max-height:100px;
   max-width:100px;
   float:left;
 }
+
+.box3 p {
+  float:right;
+}
+
+
+
+
 
 /* DIV FLEX BOX 4 */
