@@ -73,21 +73,21 @@ footer {
   background-color: rgb(117, 3, 170);
   margin-top: 10px;
   max-height: auto;
-  max-width: 90%;
+  max-width: 90%;````````````````````
 }
 .box1-col1 img {
-  max-width: 98%;
   max-height: auto;
-  margin-right: 5px;
+  max-width: 100%;
   margin-left: 80px;
   position: relative;
-  z-index: 1;
+  z-index: 0;
 }
 
 .box1-col2 {
   background-color:#00ff55;
-  max-width: 200px;
+  max-width: 100%;
   max-height: auto;
+  margin-top: 100px;
 }
 .box1-col2 p {
   background-color: white;
@@ -98,7 +98,7 @@ footer {
   align-items: center;
   justify-content: center;
   position: relative;
-  z-index: 0;
+  z-index: 1;
 }
 
 
@@ -116,6 +116,11 @@ footer {
   font-size: 1.2em;
   margin-left: 0;
   margin-bottom: 20px;
+}
+.box2 img {
+  float:left;
+  max-height:100px;
+  max-width:100px
 }
 
 /* DIV FLEX BOX 3 */
