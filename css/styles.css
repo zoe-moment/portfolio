@@ -61,7 +61,6 @@ footer {
   max-width: 90%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
 }
 .box4 {
   background-color: rgb(61, 17, 255);
