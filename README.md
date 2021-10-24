@@ -2,7 +2,7 @@
 
 October 23rd, 2021
 
-Portfolio V 1.0
+Portfolio V 1.0 
 
 By _**Zoe T. Sullivan**_
 
@@ -10,7 +10,9 @@ By _**Zoe T. Sullivan**_
 
 This is a portfolio website for Zoe T. Sullivan. It contains a list of past projects both on github and squarespace that were created by Zoe. This is a project assigned by Epicodus.
 
-__NOTE: V 1.0 IS NOT COMPLETE.__
+https://zydridas.github.io/portfolio/ 
+
+_NOTE: V 1.0 IS NOT COMPLETE._
 
 ## Setup/Installation Requirements
 
