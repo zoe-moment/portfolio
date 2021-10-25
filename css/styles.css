@@ -164,7 +164,7 @@ float: left;
 }
 
 
-
-
-
 /* DIV FLEX BOX 4 */
+.box4.title {
+  font-weight: 200;
+}
