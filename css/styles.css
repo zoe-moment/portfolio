@@ -14,6 +14,10 @@ footer {
   font-size: 1rem;
 }
 
+h2 {
+  text-align: center;
+  margin: 0em 1em;
+}
 
 /* NAV BAR */
 nav {
@@ -63,6 +67,7 @@ float: left;
   max-width: 90%;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .box1 h2 {
@@ -117,10 +122,9 @@ float: left;
   font: 1em sans-serif;
 }
 
-.box2-col1 {
+.box2-about {
   font-size: 1.2em;
-  margin-left: 0;
-  margin-bottom: 20px;
+  margin: 0em 1em;
   text-align: justify;
 }
 
@@ -171,6 +175,18 @@ float: left;
   flex-wrap: nowrap;
 }
 
-.box4.title {
-  font-weight: 200;
+.box4-projects p {
+  margin: 1em 1em;
+}
+
+.box4-projects {
+  text-align: left;
+  margin: 0em 1em;
+}
+
+.box4-title {
+  font-weight: 500;
+  font-size: 1.1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
