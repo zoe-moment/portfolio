@@ -128,6 +128,10 @@ float: left;
   text-align: justify;
 }
 
+.box2-ol {
+padding:1em;
+}
+
 
 /* DIV FLEX BOX 3 */
 .box3 {
