@@ -2,17 +2,15 @@
 
 October 23rd, 2021
 
-Portfolio V 1.0
+Portfolio V 2.0
 
 By _**Zoe T. Sullivan**_
 
 ## Description
 
-This is a portfolio website for Zoe T. Sullivan. It contains a list of past projects both on github and squarespace that were created by Zoe. This is a project assigned by Epicodus.
+This is a portfolio website for Zoe T. Sullivan. It contains a list of past projects both on github and squarespace that were created by Zoe. This project was assigned by Epicodus.
 
 <https://zydridas.github.io/portfolio/>
-
-_NOTE: V 1.0 IS NOT COMPLETE._
 
 ## Setup/Installation Requirements
 
@@ -23,7 +21,9 @@ _NOTE: V 1.0 IS NOT COMPLETE._
 
 ## Known Bugs
 
-Positioning divs using absolute and relative positioning causing other display elements to break on website.
+Unable to create "strong" tag with CSS using font weight.
+
+~~Positioning divs using absolute and relative positioning causing other display elements to break on website.~~ Issue resolved 10/23 - Some div boxes were placed incorrectly.
 
 ## Support and contact details
 
