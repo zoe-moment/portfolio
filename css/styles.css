@@ -1,6 +1,7 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: normal;
+  background-color: rgba(155, 166, 5, 0.3);
 }
 
 img {
@@ -19,6 +20,7 @@ nav {
   background-color: hsla(0,0%,0%,0.2);
   width: 95%;
   margin: 0 auto;
+  padding: 0em 1em;
   font-size: 1em;
   font-family: 'Times New Roman', Times, serif;
   position: sticky;
@@ -57,9 +59,11 @@ float: left;
 
 .box1 {
   padding: 20px;
-  margin: 10px;
-  height: 600px;
+  margin: 2em 20em;
+  height: 400px;
   max-width: 90%;
+  display: flex;
+  flex-direction: row;
 }
 .box2 {
   padding: 20px;
@@ -72,6 +76,7 @@ float: left;
   margin: 10px;
   max-height: auto;
   max-width: 90%;
+  display: flex;
 }
 .box4 {
   padding: 20px;
@@ -84,37 +89,37 @@ float: left;
 
 /* DIV FLEX BOX 1 */
 .box1-col1 {
+  max-width: 40%;
+  max-height: auto;
   margin-top: 10px;
-  max-height: auto;
-  max-width: 90%;
-}
-.box1-col1 img {
-  max-height: auto;
-  max-width: 100%;
-  margin-left: 80px;
-  z-index: 0;
-}
-
-.box1-col2 {
-  max-width: 100%;
-  max-height: auto;
-  margin-top: 100px;
-  position: absolute;
-}
-.box1-col2 p {
-  margin: 10px;
-  padding: 10px;
-  box-sizing: border-box;
-  border: 2px solid #8c8c8c;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  z-index: 1;
 }
 
 .box1 img {
-  max-height: 400px;
   max-width: auto;
+  max-height: 400px;
+  margin-left:0;
+  border: .5em solid hsl(100, 100, 20);
+  z-index: 1;
+  position: static;
+}
+
+.box1-col2 {
+  max-width: 40%;
+  max-height: 60%;
+  margin-top: 4em;
+  margin-left: 15em;
+}
+.box1 h2 {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 1em;
+  border: 2px solid #8c8c8c;
+  background-color: rgba(236, 234, 115, 0.8);
+  align-items: center;
+  justify-content: center;
+  position: static;
+  z-index: 2;
 }
 
 
@@ -148,7 +153,7 @@ float: left;
 }
 
 .box3 p {
-  float:right;
+  float: right;
 }
 
 
