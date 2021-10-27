@@ -14,16 +14,14 @@ This is a portfolio website for Zoe T. Sullivan. It contains a list of past proj
 
 ## Setup/Installation Requirements
 
-* _VS Code (or other preferred text editor)_
-* _Basic working knowlege of CSS and HTML_
-* _Domain name_
-* _Web Hosting Provider (GH Pages used)_
+* Navigate to my project repository at <https://github.com/zydridas/portfolio>
+* Clone repository to your desktop.
+* Navigate to the top level of the direectory.
+* Open index.html in you browser.
 
 ## Known Bugs
 
-Unable to create "strong" tag with CSS using font weight.
-
-~~Positioning divs using absolute and relative positioning causing other display elements to break on website.~~ Issue resolved 10/23 - Some div boxes were placed incorrectly.
+Some CSS elements are incomplete.
 
 ## Support and contact details
 
