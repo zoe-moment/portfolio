@@ -21,7 +21,7 @@ This is a portfolio website for Zoe T. Sullivan. It contains a list of past proj
 
 ## Known Bugs
 
-A tags do not have CSS applied.
+Links to Schools tags do not have CSS applied.
 
 ## Support and contact details
 
