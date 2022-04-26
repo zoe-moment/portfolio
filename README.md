@@ -10,11 +10,11 @@ By _**Zoe T. Sullivan**_
 
 This is a portfolio website for Zoe T. Sullivan. It contains a list of past projects both on github and squarespace that were created by Zoe. This project was assigned by Epicodus.
 
-<https://zydridas.github.io/portfolio/>
+<https://zoe-moment.github.io/portfolio/>
 
 ## Setup/Installation Requirements
 
-* Navigate to my project repository at <https://github.com/zydridas/portfolio>
+* Navigate to my project repository at <https://github.com/zoe-moment/portfolio>
 * Clone repository to your desktop.
 * Navigate to the top level of the direectory.
 * Open index.html in you browser.
