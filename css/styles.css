@@ -2,9 +2,9 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Oswald', Times, serif;
   font-weight: normal;
-  background-color: rgba(155, 166, 5, 0.3);
+  background-color: rgb(255, 255, 255);
 }
 img {
   max-width: 400px;
@@ -13,11 +13,14 @@ img {
 }
 footer {
   font-size: 1rem;
-  text-align: center;
+  text-align: left;
 }
 h2 {
-  text-align: center;
+  text-align: left;
 }
+
+
+
 /* NAV BAR */
 nav {
   background-color: hsla(0,0%,0%,0.2);
@@ -25,7 +28,6 @@ nav {
   margin: 0 auto;
   padding: 0em 1em;
   font-size: 1em;
-  font-family: 'Times New Roman', Times, serif;
   position: sticky;
   overflow: scroll;
   top: 10px;
@@ -45,13 +47,15 @@ nav a {
   float:left;
   padding:10px;
 }
-.nav-left {
+.listItem {
 float: left;
 }
-.nav-right {
+.lastItem {
   float: right;
 }
-/* DIV FLEX BOX 1 */
+
+
+/* DIV 
 .box1 {
   padding: 20px;
   margin: 1em auto 1em auto;
@@ -94,7 +98,7 @@ float: left;
   max-height: 60%;
   margin: auto;
 }
-/* DIV FLEX BOX 2 */
+/* DIV FLEX BOX 2
 .box2 {
   padding: 1.5em;
   margin: auto;
