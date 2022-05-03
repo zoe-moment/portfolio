@@ -44,6 +44,9 @@ nav {
   background-color: #555;
 }
 
+/*
+HAMBURGER MENU
+*/
 .toggle-button {
   position: absolute;
   top: .75rem;
