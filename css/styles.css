@@ -4,29 +4,77 @@ SITE-WIDE */
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: 'Oswald', Times, serif;
   font-weight: normal;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
 }
 
-html {
-  scroll-behavior: smooth;
+main {
+  display: flex;
+  flex-direction: column;
 }
 
 footer {
   font-size: 1rem;
   text-align: left;
+  max-width: 40%;
+  background-color: rgba(255, 238, 7, 0.433);
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  padding: .2em;
+  text-align: center;
+  color: rgb(83, 45, 1);
 }
+
 h2 {
   text-align: left;
 }
 
+section {
+  background-color: hsla(0, 0%, 100%, 90%);
+  /* background-image: -webkit-gradient(linear, 0% 0% 0%, from(#66cccc), to(#336666)) */
+  border-radius: 1em 4em 1em 4em / 3em 1em 3em 1em;
+  padding: 1em 1em;
+  max-width: 100%;
 
 
+  
+}
 
+figure {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+}
+figcaption {
+  font-weight: 400;
+  color: white;
+  padding:2em;
+  max-width: 40%;
+  background-color: rgba(8, 47, 54, 0.7);
+  margin-left: -4em;
+  margin-top: -7rem;
+}
+.img_profile {
+  max-width: 20rem;
+  max-height: auto;
+  padding: .5em;
+  flex-shrink: 1;
+  background-color: black;
+  border-radius: 1em 4em 1em 4em / 3em 1em 3em 1em;
+}
 
 /* NAV BAR */
 nav {
@@ -106,4 +154,53 @@ HABURGER MENU
   }
 }
 
+/* BODY*/
+.about {
+  border: 1rem solid;
+  border: 0.5rem outset pink;
+  outline: 0.5rem solid khaki;
+  font: bold 1rem sans-serif;
+  margin: 2rem;
+  padding: 2rem;
+  outline-offset: -1rem;
+}
 
+/* PROJECTS */
+.project {
+    border: 1rem solid;
+    border: 0.5rem outset pink;
+    outline: 0.5rem solid khaki;
+    font: bold 1rem sans-serif;
+    margin: 2rem;
+    padding: 2rem;
+    outline-offset: -1rem;
+}
+.box4-project {
+  padding: 1rem;
+}
+
+
+
+/* EDUCATION */
+.education {
+  border: 1rem solid;
+  border: 0.5rem outset pink;
+  outline: 0.5rem solid khaki;
+  font: bold 1rem sans-serif;
+  margin: 2rem;
+  padding: 2rem;
+  outline-offset: -1rem;
+}
+.box3-edu {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: flex-start;
+  margin: 1rem;
+}
+.box3-edu img {
+  align-items: flex-start;
+  max-width: 5rem;
+  min-width: 1rem;
+
+}
