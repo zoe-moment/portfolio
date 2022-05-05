@@ -14,7 +14,7 @@ This is a portfolio website for Zoe T. Sullivan. It contains a list of past proj
 
 ## Setup/Installation Requirements
 
-Navigate to the project repository at https://github.com/zoe-moment/portfolio
+Navigate to the project repository "Portfolio"
 
 Clone repository to your desktop.
 
@@ -29,9 +29,9 @@ Open index.html in you browser.
 - [ ] School names need to be centered horizontally to icon image
 - [ ] Change footer design, circle does not flow with theme
 - [ ] Optomize mobile friendly user application 
-- [ ] * Nav bar is too small
-- [ ] * Nav bar doesn't stick when in mobile view
-- [ ] * Text is not uniform sizeAn uncompleted task
+- [ ] 1. Nav bar is too small
+- [ ] 2. Nav bar doesn't stick when in mobile view
+- [ ] 3. Text is not uniform sizeAn uncompleted task
 - [ ] Add thumbnails of completed projects now that Tehya has taken her site down
 - [ ] Complete copy for About section
 - [ ] Add liscence information to readme.md
