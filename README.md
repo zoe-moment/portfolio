@@ -36,7 +36,17 @@ Open index.html in you browser.
 - [ ] Complete copy for About section
 - [ ] Add liscence information to readme.md
 
+ Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
 
+-OR-
+
+ Markup : - Bullet list
+              - Nested bullet
+                  - Sub-nested bullet etc
+          - Bullet list item 2 
 
 ## Support and contact details
 
