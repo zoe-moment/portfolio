@@ -29,9 +29,9 @@ Open index.html in you browser.
 - [ ] School names need to be centered horizontally to icon image
 - [ ] Change footer design, circle does not flow with theme
 - [ ] Optomize mobile friendly user application 
-      - [ ] Nav bar is too small
-      - [ ] Nav bar doesn't stick when in mobile view
-      - [ ] Text is not uniform sizeAn uncompleted task
+- [ ] - [ ] Nav bar is too small
+- [ ] - [ ] Nav bar doesn't stick when in mobile view
+- [ ] - [ ] Text is not uniform sizeAn uncompleted task
 - [ ] Add thumbnails of completed projects now that Tehya has taken her site down
 - [ ] Complete copy for About section
 - [ ] Add liscence information to readme.md
