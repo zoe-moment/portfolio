@@ -71,7 +71,7 @@ figcaption {
   max-width: 20rem;
   max-height: auto;
   padding: .5em;
-  flex-shrink: 1;
+  flex-grow: 2;
   background-color: black;
   border-radius: 1em 4em 1em 4em / 3em 1em 3em 1em;
 }
