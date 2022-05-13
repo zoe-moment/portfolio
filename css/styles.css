@@ -438,6 +438,14 @@ img {
   margin: 0 auto;
 }
 
+.about-me--edu {
+  max-width: 100%; /* ADDED FOR SM SCREEN OVERFLOW */
+  font-size: var(--fs-body);
+}
+.about-me--edu h2 {
+  font-size: 2rem; /* ADDED FOR SM SCREEN OVERFLOW */
+}
+
 .about-me__img {
   box-shadow: var(--bs);
 }
@@ -472,6 +480,10 @@ img {
     grid-area: img;
     position: relative;
     z-index: 2;
+  }
+
+  .about-me--edu h2 {
+    font-size: var(--fs-h2); /* ADDED FOR SM SCREEN OVERFLOW */
   }
 }
 
