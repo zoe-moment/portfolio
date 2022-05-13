@@ -467,7 +467,8 @@ img {
     padding-right: calc(200px + 4em);
   }
 
-  .about-me__img {
+  .about-me__img,
+  .edu__img {
     grid-area: img;
     position: relative;
     z-index: 2;
@@ -478,30 +479,6 @@ img {
 /* SECTION
 --- EDU */
 
-
-/* EDUCATION */
-.education {
-  border: 1rem solid;
-  border: 0.5rem outset pink;
-  outline: 0.5rem solid khaki;
-  font: bold 1rem sans-serif;
-  margin: 2rem;
-  padding: 2rem;
-  outline-offset: -1rem;
-}
-.box3-edu {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  justify-content: flex-start;
-  margin: 1rem;
-}
-.box3-edu img {
-  align-items: flex-start;
-  max-width: 5rem;
-  min-width: 1rem;
-
-}
 
 
 
@@ -548,10 +525,15 @@ img {
 .portfolio__item {
   background-color: var(--clr-accent);
   overflow: hidden;
-}
+  max-width: fit-content; /* LINE ADDED FOR SINGLE PROJECT */
+  padding: 1.5em; /* LINE ADDED FOR SINGLE PROJECT */
+  margin-right: auto; /* LINE ADDED FOR SINGLE PROJECT */
+  margin-left: auto; /* LINE ADDED FOR SINGLE PROJECT */
+} 
 
 .portfolio__img {
   width: 100%;
+  max-width: 400px; /* LINE ADDED FOR SINGLE PROJECT */
   overflow: hidden;
   transition: 
     transform 750ms cubic-bezier(.5, 0, .5, 1),
