@@ -97,7 +97,8 @@ strong {
 }
 
 .section__subtitle--intro,
-.section__subtitle--about {
+.section__subtitle--about,
+.section__subtitle--edu {
   background: var(--clr-accent);
   padding: .25em 1em;
   font-family: var(--ff-secondary);
@@ -276,7 +277,6 @@ img {
 }
 
 
-
 /* STYLING
 --- BUTTONS */
 
@@ -313,7 +313,8 @@ img {
 --- SUBTITLE */
 
 .section__subtitle--intro,
-.section__subtitle--paragraph {
+.section__subtitle--paragraph,
+.section__subtitle--edu {
   background: var(--clr-accent);
 }
 
@@ -337,6 +338,7 @@ img {
   .intro {
     display: grid;
     width: min-content;
+    height: 70vh;
     margin: 0 auto;
     grid-column-gap: 1em;
     grid-template-areas: 
@@ -451,6 +453,7 @@ img {
 }
 
 @media (min-width: 600px) {
+  
   .about-me {
     display: grid;
     grid-template-columns: 1fr 200px;
@@ -490,6 +493,66 @@ img {
 
 /* SECTION
 --- EDU */
+
+.education {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section__title--edu {
+  max-width: 100%; /* ADDED FOR SM SCREEN OVERFLOW */
+  font-size: var(--fs-body);
+}
+
+.edu__img {
+  box-shadow: var(--bs);
+  height: 144px;
+  max-width: 144px;
+}
+
+.flexrow__edu {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1em;
+}
+
+@media (min-width: 600px) {
+  /* 
+  .education {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    grid-template-areas: 
+          "title img"
+          "subtitle img"
+          "text img";
+    grid-column-gap: 2em; 
+  }
+
+  .section__title--edu {
+    grid-area: title;
+  }
+
+  .section__subtitle--edu {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    position: relative;
+    left: -1em;
+    width: calc(100% + 4em);
+    padding-left: 1em;
+    padding-right: calc(200px + 4em);
+  }
+
+  .edu__img,
+  .edu__img {
+    grid-area: img;
+    position: relative;
+    z-index: 2;
+  }
+ */
+  .about-me--edu h2 {
+    font-size: var(--fs-h2); /* ADDED FOR SM SCREEN OVERFLOW */
+  }
+}
 
 
 
