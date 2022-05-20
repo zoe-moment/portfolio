@@ -148,6 +148,7 @@ header {
 .logo {
   width: 200px;
   box-shadow: none;
+  color: var(--clr-accent);
 }
 
 
@@ -396,6 +397,7 @@ img {
 .service {
   max-width: 500px;
   margin: 0 auto;
+  padding: 1em;
 }
 
 .services {
