@@ -493,7 +493,10 @@ img {
 /* SECTION
 --- EDU */
 
-
+.section__img--edu {
+  height: 140px;
+  width: 140px;
+}
 
 
 
