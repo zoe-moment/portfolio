@@ -477,6 +477,8 @@ img {
   .about-me--edu h2 {
     font-size: var(--fs-h2); /* ADDED FOR SM SCREEN OVERFLOW */
   }
+
+
 }
 
 
@@ -585,14 +587,17 @@ img {
   background-color: var(--clr-accent);
   overflow: hidden;
   max-width: fit-content; /* LINE ADDED FOR SINGLE PROJECT */
-  padding: 1.5em; /* LINE ADDED FOR SINGLE PROJECT */
+  padding: 0; /* LINE ADDED FOR SINGLE PROJECT */
   margin-right: auto; /* LINE ADDED FOR SINGLE PROJECT */
   margin-left: auto; /* LINE ADDED FOR SINGLE PROJECT */
+  margin-top: 1em;
+  margin-bottom: 1em;
 } 
 
+
 .portfolio__img {
-  width: 100%;
-  max-width: 400px; /* LINE ADDED FOR SINGLE PROJECT */
+  height: 100%;
+
   overflow: hidden;
   transition: 
     transform 750ms cubic-bezier(.5, 0, .5, 1),
@@ -605,8 +610,8 @@ img {
 
 .portfolio__img:hover,
 .portfolio__item:focus .portfolio__img {
-  transform: scale(1.2);
-  opacity: .5;
+  transform: scale(1.3);
+  opacity: .8;
 }
 
 
@@ -625,9 +630,6 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-
-
-
 
 
 
